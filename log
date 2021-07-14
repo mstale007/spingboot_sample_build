@@ -1,0 +1,655 @@
+Started by user [8mha:////4IaAYUFV4CpMb/2bUxn8SFfCIP82Zn2Xr64zW6JPf9AZAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZe/dLi1CL93NLi7MTEPADQt74xwgAAAA==[0mMuskaan Shraogi
+ > git.exe rev-parse --resolve-git-dir C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\caches\git-3126acacb4259d9dfa31f4ca1a23ff48\.git # timeout=10
+Setting origin to https://github.com/muskaanshraogi/spring-boot-rest-api-tutorial
+ > git.exe config remote.origin.url https://github.com/muskaanshraogi/spring-boot-rest-api-tutorial # timeout=10
+Fetching origin...
+Fetching upstream changes from origin
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.13.3.windows.1'
+ > git.exe config --get remote.origin.url # timeout=10
+using GIT_ASKPASS to set credentials Github
+ > git.exe fetch --tags --progress -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Seen branch in repository origin/cucumber-redo
+Seen branch in repository origin/cucumber-test
+Seen branch in repository origin/jira-integration
+Seen branch in repository origin/main
+Seen 4 remote branches
+Obtained Jenkinsfile from ee60d43d74d4e3716cfe723d566fcc738415b4a9
+Running in Durability level: MAX_SURVIVABILITY
+Loading library jenkins-shared-pipeline@deployment
+Attempting to resolve deployment from remote references...
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.13.3.windows.1'
+using GIT_ASKPASS to set credentials Github
+ > git.exe ls-remote -h -- https://github.com/mstale007/jenkins-libraries # timeout=10
+Found match: refs/heads/deployment revision bf4690149fb51347fbe1a55167627966cdd7f526
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential 2dd9a85e-c181-43a8-958a-2cc505dd14c3
+ > git.exe rev-parse --resolve-git-dir C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\branch-pipeline_jira-integration@libs\jenkins-shared-pipeline\.git # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/mstale007/jenkins-libraries # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/mstale007/jenkins-libraries
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.13.3.windows.1'
+using GIT_ASKPASS to set credentials Github
+ > git.exe fetch --no-tags --progress -- https://github.com/mstale007/jenkins-libraries +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision bf4690149fb51347fbe1a55167627966cdd7f526 (deployment)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f bf4690149fb51347fbe1a55167627966cdd7f526 # timeout=10
+Commit message: "vertical table"
+ > git.exe rev-list --no-walk e79eb7b12dd7f2205a849b931ae405c04977f7e5 # timeout=10
+[8mha:////4NeF+BnNMM55UgUthj1oc78P52Ku9k0XXHx0z5KMFY4hAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4IU8XKTOk3XcjQrVEIA6TUGlTfm0FXbK0X5Dcm2tr4gsAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4BDeoMN04xDT67qbyFKKbJBx8gSLaK6WmuFd8972HQ9AAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\branch-pipeline_jira-integration
+[8mha:////4C/oyGUEcqq67GwiD5ztvX14KnA00h3WKBt53c1KX3FfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4OB3xptMUFG9IYTMjuehQ16Y/OGLAY80IsxPQboxflJgAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4KOA8/aS13MwsP1jJ+JZZm//N7PvyWGW15+iHmF+gnSJAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4O/oewW+YmIYaU4oy5osqRghaehGwddLs9fK2Gb3nK+iAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential 2dd9a85e-c181-43a8-958a-2cc505dd14c3
+ > git.exe rev-parse --resolve-git-dir C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\branch-pipeline_jira-integration\.git # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/muskaanshraogi/spring-boot-rest-api-tutorial # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/muskaanshraogi/spring-boot-rest-api-tutorial
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.13.3.windows.1'
+using GIT_ASKPASS to set credentials Github
+ > git.exe fetch --no-tags --progress -- https://github.com/muskaanshraogi/spring-boot-rest-api-tutorial +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision ee60d43d74d4e3716cfe723d566fcc738415b4a9 (jira-integration)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f ee60d43d74d4e3716cfe723d566fcc738415b4a9 # timeout=10
+Commit message: "CICD-20"
+ > git.exe rev-list --no-walk ee60d43d74d4e3716cfe723d566fcc738415b4a9 # timeout=10
+[8mha:////4JPVZBQGB5yjabD4mG9SRi3Qk7tXdlsk74AnGc1AiIzNAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4MWIQv2l0BT9EPKz/twZE5ADFHwSfpjkzCI0LB0hK0axAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4Dq6lkReZlnfYPVfS5/UXv35GCYUDkLymRSQHHvpJq1/AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4HfeCfDaU9PkqwWOPPBKewzb4GDzrkNlRc7zOXM+DCLAAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4AKmB75dVcipoQdod73rQIDjz0fN/zNeSeWIqJbNP0hdAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4HuTLjFI5ERMBkmgJqKTSUDYZXRIYe1KL5zyIpo/mmfpAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Initialize)
+[8mha:////4MU33rSR+KuNXz0Cdx+dybyh+YgJIzKXFzrhbzBOaWLEAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] echo
+Branch name is: jira-integration
+[8mha:////4FxfbznCc8U2NoPBzZARm5wPCf4u6sXihXGjPQsQqKFkAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN0uFte2+AAAA[0m[Pipeline] echo
+Intializing..!
+Post stage
+[8mha:////4DSaXVLI6Vfts6WkNJxRtfkgiQMqpIco1sktU2JGao5UAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGI1pjGvgAAAA==[0m[Pipeline] echo
+Success
+[8mha:////4DHW12AiHDbWFUKSRpZfA3ZHjnNd3Ex8Wsk0XEgfYmBIAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQG7xuaSvgAAAA==[0m[Pipeline] }
+[8mha:////4CnVvcZTy0ugqWpE4g1MRz+H8k8yHVYH0Q9tdRM8GUvbAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiqJAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N/hEtxS+AAAA[0m[Pipeline] // stage
+[8mha:////4Gh8fCUeMKoPTvd31MwEcuMoCKgQyPyWeML+ZFEIb/HFAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUHRFiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPrPxt8cIAAAA=[0m[Pipeline] stage
+[8mha:////4OTk2DZqOCLSwvkwpU3yZdI/3p8fmQCPgWcw7pmurx53AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] { (Update Dependencies)
+[8mha:////4C8wTNMC3uHjRuecJ98B4hZQUaMQiy3r9DviYbfriNjZAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMWQo99tP7cIbaOP4NL4AAAA=[0m[Pipeline] echo
+Updating..!
+Post stage
+[8mha:////4Cno61q5R5PpMfPOmrOZ/O2EMRhzdZwFHSQF88Tt0PnPAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKC0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bq7DVH74AAAA=[0m[Pipeline] echo
+JIRA: Update Successful
+[8mha:////4H8s9fxarMcirA635qPCKIQOi9MEWlm7E78IztPKryJbAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKHf7T23fSZy7ir4AAAA=[0m[Pipeline] }
+[8mha:////4LuAsafJxFvGa98HuMiL/Tsd99uMsHA/tEbwcDeSf8yVAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+WR0/FvgAAAA==[0m[Pipeline] // stage
+[8mha:////4GxDbhNIXvc1yPUBz8vxlZzpJXYu0JTZ8H4E8z2VLXZ5AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohURWJCTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFsmmy7/edZvQFKJke3wgAAAA==[0m[Pipeline] stage
+[8mha:////4GYQhG6MZmFxQOWonK2z0R18i8boablaytowZ75ga7l4AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] { (Build)
+[8mha:////4CfbmfysIEDffKyuvCrex1wlJWGnW3HoBbLKA1Q8COpyAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUUCBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHUcXIBvgAAAA==[0m[Pipeline] echo
+Building..!
+[8mha:////4A9JIWMbSJGlJ6dC+73eHiiOFR68bQq8MhACVNT/obgGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q0bbeqGvgAAAA==[0m[Pipeline] bat
+
+C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\branch-pipeline_jira-integration>mvn clean install -DskipTests 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------< com.staxrt.tutorial:spring-boot-rest-api-tutorial >----------
+[INFO] Building spring-boot-rest-api-tutorial 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ spring-boot-rest-api-tutorial ---
+[INFO] Deleting C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\branch-pipeline_jira-integration\target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.2:prepare-agent (default) @ spring-boot-rest-api-tutorial ---
+[INFO] argLine set to -javaagent:C:\\Windows\\system32\\config\\systemprofile\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.2\\org.jacoco.agent-0.8.2-runtime.jar=destfile=C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Jenkins\\.jenkins\\workspace\\branch-pipeline_jira-integration\\target\\jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ spring-boot-rest-api-tutorial ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spring-boot-rest-api-tutorial ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\branch-pipeline_jira-integration\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ spring-boot-rest-api-tutorial ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\branch-pipeline_jira-integration\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ spring-boot-rest-api-tutorial ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\branch-pipeline_jira-integration\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ spring-boot-rest-api-tutorial ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.2:report (report) @ spring-boot-rest-api-tutorial ---
+[INFO] Skipping JaCoCo execution due to missing execution data file.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.1.1:jar (default-jar) @ spring-boot-rest-api-tutorial ---
+[INFO] Building jar: C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\branch-pipeline_jira-integration\target\spring-boot-rest-api-tutorial-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.1.2.RELEASE:repackage (repackage) @ spring-boot-rest-api-tutorial ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ spring-boot-rest-api-tutorial ---
+[INFO] Installing C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\branch-pipeline_jira-integration\target\spring-boot-rest-api-tutorial-0.0.1-SNAPSHOT.jar to C:\Windows\system32\config\systemprofile\.m2\repository\com\staxrt\tutorial\spring-boot-rest-api-tutorial\0.0.1-SNAPSHOT\spring-boot-rest-api-tutorial-0.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\branch-pipeline_jira-integration\pom.xml to C:\Windows\system32\config\systemprofile\.m2\repository\com\staxrt\tutorial\spring-boot-rest-api-tutorial\0.0.1-SNAPSHOT\spring-boot-rest-api-tutorial-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.205 s
+[INFO] Finished at: 2021-07-13T14:34:30+05:30
+[INFO] ------------------------------------------------------------------------
+Post stage
+[8mha:////4N/nxvphLkmt2AlGwDcwsxdcvSyDo5tget9CVOXyHfk5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAhRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q1aXPGfvgAAAA==[0m[Pipeline] echo
+JIRA: Build Successful
+[8mha:////4GZeAK5wOIjmDrkDfaGBqKiUJjZMaZqVF+HT3d0EzI89AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9mQDtDvgAAAA==[0m[Pipeline] }
+[8mha:////4JEyFkR9hUMriDPoxYEvO6PDhXF5yUR/pZnkiOaer9MfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AF5wm4RvgAAAA==[0m[Pipeline] // stage
+[8mha:////4BRMxiF/ZKZID8hovvjLntL4CtEpCqm/4hDI3V5DE8QYAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUhRExdY26cILQhJA0+r8kKenEibgadyBQiQkPlm3Jes8XVMHDkbxmVuFgMPSGjW7SObFEfrg4SszSmfWEgZxinUodSdUutaOoYFFRworDWmHvKBjUETbciruonUBdn6LP24FDaeQNHlDwTI7Cx2+ZPWyvkwyEP85fAMxjhLJpsu13n2f1BkYdNQzCAAAA[0m[Pipeline] stage
+[8mha:////4CTjzK+vUrzykSilgzpmDuwAkDYE7ETbGFyzqmaG76IAAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUoiNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPfTawssIAAAA=[0m[Pipeline] { (Unit Tests)
+[8mha:////4BgIOixJU8LI/j5n0Nk8EgQ1f6RTxwiaHM0sY7OX28auAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSxM6xsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NGWcPtb4AAAA=[0m[Pipeline] echo
+Unit Testing..!
+[8mha:////4MVi5UpFEvSxZz5fl4HyzGWUmaFebP3yYEJKEWOtVQlmAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSZKwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMPsEddt+au/fWFYUrL4AAAA=[0m[Pipeline] bat
+
+C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\branch-pipeline_jira-integration>mvn -Dtest=UnitTests test jacoco:report 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------< com.staxrt.tutorial:spring-boot-rest-api-tutorial >----------
+[INFO] Building spring-boot-rest-api-tutorial 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.2:prepare-agent (default) @ spring-boot-rest-api-tutorial ---
+[INFO] argLine set to -javaagent:C:\\Windows\\system32\\config\\systemprofile\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.2\\org.jacoco.agent-0.8.2-runtime.jar=destfile=C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Jenkins\\.jenkins\\workspace\\branch-pipeline_jira-integration\\target\\jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ spring-boot-rest-api-tutorial ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spring-boot-rest-api-tutorial ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ spring-boot-rest-api-tutorial ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\branch-pipeline_jira-integration\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ spring-boot-rest-api-tutorial ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ spring-boot-rest-api-tutorial ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.staxrt.tutorial.UnitTests
+14:34:40.710 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.staxrt.tutorial.UnitTests]
+14:34:40.725 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+14:34:40.771 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+14:34:40.872 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.staxrt.tutorial.UnitTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+14:34:40.982 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.staxrt.tutorial.UnitTests], using SpringBootContextLoader
+14:34:40.995 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.staxrt.tutorial.UnitTests]: class path resource [com/staxrt/tutorial/UnitTests-context.xml] does not exist
+14:34:40.995 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.staxrt.tutorial.UnitTests]: class path resource [com/staxrt/tutorial/UnitTestsContext.groovy] does not exist
+14:34:40.996 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.staxrt.tutorial.UnitTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+14:34:41.174 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.staxrt.tutorial.UnitTests]
+14:34:41.541 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.staxrt.tutorial.UnitTests]: using defaults.
+14:34:41.543 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+14:34:41.633 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@79d3473e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4dad0eed, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7fad214a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@164642a4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@75cf0de5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@50b0afd7, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@468173fa, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@62765aec, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6f5bd362, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3a401749, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7793ad58, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@27e2287c]
+14:34:41.686 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.staxrt.tutorial.UnitTests]
+14:34:41.696 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.staxrt.tutorial.UnitTests]
+14:34:41.698 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.staxrt.tutorial.UnitTests]
+14:34:41.699 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.staxrt.tutorial.UnitTests]
+14:34:41.699 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.staxrt.tutorial.UnitTests]
+14:34:41.699 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.staxrt.tutorial.UnitTests]
+14:34:41.702 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.staxrt.tutorial.UnitTests]
+14:34:41.702 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.staxrt.tutorial.UnitTests]
+14:34:41.708 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.staxrt.tutorial.UnitTests]
+14:34:41.708 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.staxrt.tutorial.UnitTests]
+14:34:41.720 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@2291d9a0 testClass = UnitTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5e26f1ed testClass = UnitTests, locations = '{}', classes = '{class com.staxrt.tutorial.Application, class com.staxrt.tutorial.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@359ff4d9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@280e8a1a, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@2b98b3bb, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2e23c180], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> false]], class annotated with @DirtiesContext [false] with mode [null].
+14:34:41.722 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.staxrt.tutorial.UnitTests]
+14:34:41.722 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.staxrt.tutorial.UnitTests]
+14:34:41.741 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@2291d9a0 testClass = UnitTests, testInstance = com.staxrt.tutorial.UnitTests@9687f55, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5e26f1ed testClass = UnitTests, locations = '{}', classes = '{class com.staxrt.tutorial.Application, class com.staxrt.tutorial.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@359ff4d9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@280e8a1a, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@2b98b3bb, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2e23c180], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> false]]].
+14:34:41.841 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.2.RELEASE)
+
+2021-07-13 14:34:42.767  INFO 12716 --- [           main] com.staxrt.tutorial.UnitTests            : Starting UnitTests on DESKTOP-MVAORKB with PID 12716 (started by DESKTOP-MVAORKB$ in C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\branch-pipeline_jira-integration)
+2021-07-13 14:34:42.772  INFO 12716 --- [           main] com.staxrt.tutorial.UnitTests            : No active profile set, falling back to default profiles: default
+2021-07-13 14:34:46.061  INFO 12716 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-07-13 14:34:46.354  INFO 12716 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 152ms. Found 1 repository interfaces.
+2021-07-13 14:34:47.672  INFO 12716 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$17ae2ee1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-13 14:34:49.543  INFO 12716 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2021-07-13 14:34:49.645  INFO 12716 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-13 14:34:49.646  INFO 12716 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2021-07-13 14:34:49.685  INFO 12716 --- [           main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\scala\bin;C:\Program Files\Git\cmd;C:\apache-maven-3.6.0\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\.dotnet\tools;.]
+2021-07-13 14:34:49.953  INFO 12716 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-13 14:34:49.954  INFO 12716 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6154 ms
+2021-07-13 14:34:52.151  INFO 12716 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-13 14:34:52.553  INFO 12716 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-13 14:34:52.723  INFO 12716 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-07-13 14:34:53.090  INFO 12716 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2021-07-13 14:34:53.094  INFO 12716 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-07-13 14:34:53.455  INFO 12716 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-07-13 14:34:53.915  INFO 12716 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-07-13 14:34:55.984  INFO 12716 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-13 14:34:57.888  INFO 12716 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-13 14:34:58.162  WARN 12716 --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-13 14:34:59.463  INFO 12716 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-07-13 14:35:00.980  INFO 12716 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 57727 (http) with context path ''
+2021-07-13 14:35:00.989  INFO 12716 --- [           main] com.staxrt.tutorial.UnitTests            : Started UnitTests in 19.143 seconds (JVM running for 22.454)
+2021-07-13 14:35:01.839  INFO 12716 --- [o-auto-1-exec-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-13 14:35:01.840  INFO 12716 --- [o-auto-1-exec-7] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-13 14:35:01.909  INFO 12716 --- [o-auto-1-exec-7] o.s.web.servlet.DispatcherServlet        : Completed initialization in 69 ms
+null
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.532 s - in com.staxrt.tutorial.UnitTests
+2021-07-13 14:35:03.264  INFO 12716 --- [       Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-13 14:35:03.266  INFO 12716 --- [       Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-13 14:35:03.271  INFO 12716 --- [       Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-07-13 14:35:03.335  INFO 12716 --- [       Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.2:report (default-cli) @ spring-boot-rest-api-tutorial ---
+[INFO] Loading execution data file C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\branch-pipeline_jira-integration\target\jacoco.exec
+[INFO] Analyzed bundle 'spring-boot-rest-api-tutorial' with 6 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  32.062 s
+[INFO] Finished at: 2021-07-13T14:35:05+05:30
+[INFO] ------------------------------------------------------------------------
+Post stage
+[8mha:////4FomijlncLrr+2BMqgXTB63VofsvyPOnkEo6nL8xv8eAAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSZMbGsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALNPULftp/b+DZsFOYe+AAAA[0m[Pipeline] junit
+Recording test results
+[Checks API] No suitable checks publisher found.
+[8mha:////4Dko8pM/JYEA6HhsI6reXWuwKEJQa4RscAHTbh+TnGpmAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSpLBwrGwZGk+ACSKE+Z8AkVSeyKt5B9HMWLnFzr5t3vMF6xjgSEEzq3AwGDvDvJt0WSxTGK6OMrN0YR1hJKeYUFlQr04LCkoKllQ1rDhsFHaOokGdYMutvMvGSdTNOYXyHTjUph/hARUv5iRD+sIcYHeb+kj48/wVwOwT1G37qb1/A9o0Ip6+AAAA[0m[Pipeline] jacoco
+[JaCoCo plugin] Collecting JaCoCo coverage data...
+[JaCoCo plugin] **/**.exec;**/classes;**/src/main/java; locations are configured
+[JaCoCo plugin] Number of found exec files for pattern **/**.exec: 1
+[JaCoCo plugin] Saving matched execfiles:  C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\branch-pipeline_jira-integration\target\jacoco.exec
+[JaCoCo plugin] Saving matched class directories for class-pattern: **/classes: 
+[JaCoCo plugin]  - C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\branch-pipeline_jira-integration\target\classes 7 files
+[JaCoCo plugin] Saving matched source directories for source-pattern: **/src/main/java: 
+[JaCoCo plugin] Source Inclusions: **/*.java,**/*.groovy,**/*.kt,**/*.kts
+[JaCoCo plugin] Source Exclusions: 
+[JaCoCo plugin] - C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\branch-pipeline_jira-integration\src\main\java 7 files
+[JaCoCo plugin] Loading inclusions files..
+[JaCoCo plugin] inclusions: []
+[JaCoCo plugin] exclusions: []
+[JaCoCo plugin] Thresholds: JacocoHealthReportThresholds [minClass=0, maxClass=0, minMethod=0, maxMethod=0, minLine=0, maxLine=0, minBranch=0, maxBranch=0, minInstruction=0, maxInstruction=0, minComplexity=0, maxComplexity=0]
+[JaCoCo plugin] Publishing the results..
+[JaCoCo plugin] Loading packages..
+[JaCoCo plugin] Done.
+[JaCoCo plugin] Overall coverage: class: 66.66667, method: 40.476192, line: 27.8481, branch: 100.0, instruction: 16.716417, complexity: 40.476192
+[8mha:////4L6cBYl3NxX6BN5N2cw3Oqt5Kxd2/hSyf004KikMfRHNAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh06IKEmFijLJwgNCEkjf5vk5R04kRcjTvQUokJD5ZtyXqvN1QxwImCYU5jZzG2lvV+NHNimUJ385SZoytrCSN5zYTOgpQ+r1VQ0rCqKGHDYaux9RQtmgQ77uRD1l6iqS8pzNuRQ2nVAE8o+ExOMqRvmQLs76OKhD/OXwBMfYKyaRY7LM/qA34Z+RnCAAAA[0m[Pipeline] script
+[8mha:////4JHdAAStVxs+B6yTHgpPlnQGccP3rRBkvEpGiRp0mxwAAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD59NhPHCAAAA[0m[Pipeline] {
+expected to call com.cicd.helper.JiraUtil.xmlToComment but wound up catching com.cicd.helper.JiraUtil.updateComment; see: https://jenkins.io/redirect/pipeline-cps-method-mismatches/
+[8mha:////4Kboj9dllFEaUlQRpvJQ8TEwO1py1Vuq+LQzo2xkc9skAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw/W61xwvgAAAA==[0m[Pipeline] bat
+[8mha:////4FTntTnpSbVqU9jZNzFeNN+BltC/EySgQnFaH1ePNRy6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw+X2kdpvgAAAA==[0m[Pipeline] bat
+[8mha:////4GMcagO4IR0P9gRT5zl/KslM9vj94+3LtT3+pOLIdLJuAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAQ1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw9UiWpCvgAAAA==[0m[Pipeline] bat
+[8mha:////4ATm1SmhqfBhJEn9uDbKhqh+ttwe5dzzgOqIKxqTU6/UAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJShAYhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAcw+QVkfcu1r/wEVuHFbvgAAAA==[0m[Pipeline] echo
+IssueId found: CICD-20
+[8mha:////4PztUqI67VlO+ZsH5RPBZQR+Ko4WdoSM4wOF/CefS+ifAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpSIMQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAcw+Qbk/5Kpr/wHSLjAUvgAAAA==[0m[Pipeline] bat
+
+C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\branch-pipeline_jira-integration>curl -g --request POST "https://mstale-test.atlassian.net/rest/api/latest/issue/CICD-20/comment" --header "Authorization: Basic bXN0YWxlMjBAZ21haWwuY29tOkhKbFRSQ1B3YmRHMnhabVBIbnhPQUEyRA==" --header "Content-Type:application/json" --data-raw "{\"body\": \"Junit Test Reports:\n\n||*Class Name*||*Test Name*||*Skipped*||*Failed Since*|\n||com.staxrt.tutorial.UnitTests||testGetAllUsers||false||0|\n||com.staxrt.tutorial.UnitTests||testUpdatePost||false||0|\n||com.staxrt.tutorial.UnitTests||testCreateUser||false||0|\n||com.staxrt.tutorial.UnitTests||testDeletePost||false||0|\n||com.staxrt.tutorial.UnitTests||contextLoads||false||0|\n||com.staxrt.tutorial.UnitTests||testGetUserById||false||0||\"}" 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  3101    0  2650  100   451   2650    451  0:00:01 --:--:--  0:00:01  4727
+{"self":"https://mstale-test.atlassian.net/rest/api/2/issue/10019/comment/10099","id":"10099","author":{"self":"https://mstale-test.atlassian.net/rest/api/2/user?accountId=5e707ba786a16d0c3e6a364a","accountId":"5e707ba786a16d0c3e6a364a","emailAddress":"mstale20@gmail.com","avatarUrls":{"48x48":"https://secure.gravatar.com/avatar/778ccbe85c728139089c4bd47bba2008?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-2.png","24x24":"https://secure.gravatar.com/avatar/778ccbe85c728139089c4bd47bba2008?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-2.png","16x16":"https://secure.gravatar.com/avatar/778ccbe85c728139089c4bd47bba2008?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-2.png","32x32":"https://secure.gravatar.com/avatar/778ccbe85c728139089c4bd47bba2008?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-2.png"},"displayName":"Mihir Tale","active":true,"timeZone":"Asia/Calcutta","accountType":"atlassian"},"body":"Junit Test Reports:\n\n||*Class Name*||*Test Name*||*Skipped*||*Failed Since*|\n||com.staxrt.tutorial.UnitTests||testGetAllUsers||false||0|\n||com.staxrt.tutorial.UnitTests||testUpdatePost||false||0|\n||com.staxrt.tutorial.UnitTests||testCreateUser||false||0|\n||com.staxrt.tutorial.UnitTests||testDeletePost||false||0|\n||com.staxrt.tutorial.UnitTests||contextLoads||false||0|\n||com.staxrt.tutorial.UnitTests||testGetUserById||false||0||","updateAuthor":{"self":"https://mstale-test.atlassian.net/rest/api/2/user?accountId=5e707ba786a16d0c3e6a364a","accountId":"5e707ba786a16d0c3e6a364a","emailAddress":"mstale20@gmail.com","avatarUrls":{"48x48":"https://secure.gravatar.com/avatar/778ccbe85c728139089c4bd47bba2008?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-2.png","24x24":"https://secure.gravatar.com/avatar/778ccbe85c728139089c4bd47bba2008?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-2.png","16x16":"https://secure.gravatar.com/avatar/778ccbe85c728139089c4bd47bba2008?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-2.png","32x32":"https://secure.gravatar.com/avatar/778ccbe85c728139089c4bd47bba2008?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-2.png"},"displayName":"Mihir Tale","active":true,"timeZone":"Asia/Calcutta","accountType":"atlassian"},"created":"2021-07-13T14:35:07.142+0530","updated":"2021-07-13T14:35:07.142+0530","jsdPublic":true}
+[8mha:////4CAHx34dyZ/SisoyZ6jPsW/iI9ACieBtDJSSxQkdRO4eAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAAVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+Lw/VfvgAAAA==[0m[Pipeline] }
+[8mha:////4IF7KgFLtH7LPCR8LOnCOaPXl+uQTIjT3Ksn2D+UX1GMAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgBASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAs4Fmrr4AAAA=[0m[Pipeline] // script
+[8mha:////4PIgfyTFO1urbKu2AY+QEpF++Kc09v/Oj1KlbOh02YQ9AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBIkCUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2Ccq6zrU/+A9fIm2bvgAAAA==[0m[Pipeline] echo
+JIRA: Unit Tests Successful
+[8mha:////4FpyhdAOJ2tiTC0a40868bRavCPNplTHhzPK7V70owLIAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJShAIJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5P+Sq6w9LOb4DvgAAAA==[0m[Pipeline] }
+[8mha:////4Gl3B8xlaTOrZ0oOHjfybOlUpepdM/sB8J7R0sElwGmWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAQ1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w942uW/vgAAAA==[0m[Pipeline] // stage
+[8mha:////4Ne2frwS2M9H8gUBtkdFLuuO6GE88ymD8d5V3S6n7W+iAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUDkyIqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpRNk22/+zyrN3eJLSLCAAAA[0m[Pipeline] stage
+[8mha:////4CJF2g4Xc1Y8qP2IKxGD6EqloBMl8kj8ntpqrNNLbD8xAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUBibE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAW2++SvCAAAA[0m[Pipeline] { (Run on localhost)
+[8mha:////4ENe1R21uey8rZb+goLYCy53cb8kmCBOCBNv0wDZJqr3AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN4OkKLa+AAAA[0m[Pipeline] bat
+
+C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\branch-pipeline_jira-integration>START /B java -jar target/spring-boot-rest-api-tutorial-0.0.1-SNAPSHOT.jar 
+[8mha:////4F5v6kaJY26dDXtkheS9NpDhC0qfMZ1ho/M0WnFCYvsjAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN5YEWne+AAAA[0m[Pipeline] }
+[8mha:////4CWPQdwQb0Q1JfTQ1q/SRcjwskRof3buEmEPhHKRZ248AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCARWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7BrgEWB2+AAAA[0m[Pipeline] // stage
+[8mha:////4DQcbdk0pQxRBgR/hXrL/icWaiOkgzCKxSLXueCveeyzAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUHTohJtaoCycIaQhJo//bJKWdOBFX4w4EKjHhwbItWe/5gjIGOFIw3GnsLUZl+eAnkxOfKfRXTzN3dOGKMJLXvNVzS50+rbWlpGFVwWAjYKtReYoWTYKdcPIuKy/RVOcU8nYQwGw3wgMKkclJhvQtS4D9beoi4Y/zFwDLkIDVdbam+TzLN8QY4HLCAAAA[0m[Pipeline] stage
+[8mha:////4Io2tvpdrqqXu28QeOsVuNaFCDrMtOXWHSPlHWmxTx8QAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KgtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPlyKrR8IAAAA=[0m[Pipeline] { (BDD Test)
+[8mha:////4OnuDvBkvAQlw6vnXh8IizjM2s4f0JC6wXqARpAVZKbCAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAQWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBkhu+A6+AAAA[0m[Pipeline] echo
+Performance test
+[8mha:////4LNJ1rcLLwk2jb1FB1s4453KTnP2u1YDVPQQymsra61LAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgZAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN4dyYIm+AAAA[0m[Pipeline] bat
+
+C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\branch-pipeline_jira-integration>mvn -Dtest=TestRunner test 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------< com.staxrt.tutorial:spring-boot-rest-api-tutorial >----------
+[INFO] Building spring-boot-rest-api-tutorial 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.2:prepare-agent (default) @ spring-boot-rest-api-tutorial ---
+[INFO] argLine set to -javaagent:C:\\Windows\\system32\\config\\systemprofile\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.2\\org.jacoco.agent-0.8.2-runtime.jar=destfile=C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Jenkins\\.jenkins\\workspace\\branch-pipeline_jira-integration\\target\\jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ spring-boot-rest-api-tutorial ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spring-boot-rest-api-tutorial ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ spring-boot-rest-api-tutorial ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\branch-pipeline_jira-integration\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ spring-boot-rest-api-tutorial ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ spring-boot-rest-api-tutorial ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running testrunner.TestRunner
+
+Scenario: Create a user                                                                                                                        # src/test/java/resources/features/allFeatures.feature:3
+14:35:32.826 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://localhost:8081
+14:35:32.853 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to localhost:8081
+14:35:32.887 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+14:35:32.890 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+14:35:32.890 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+14:35:32.891 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+14:35:32.892 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+14:35:32.892 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /api/v1/users HTTP/1.1
+14:35:32.892 [main] DEBUG org.apache.http.wire -  >> "POST /api/v1/users HTTP/1.1[\r][\n]"
+14:35:32.894 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+14:35:32.894 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+14:35:32.894 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 165[\r][\n]"
+14:35:32.894 [main] DEBUG org.apache.http.wire -  >> "Host: localhost:8081[\r][\n]"
+14:35:32.894 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+14:35:32.895 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_181)[\r][\n]"
+14:35:32.896 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+14:35:32.896 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+14:35:32.896 [main] DEBUG org.apache.http.headers - >> POST /api/v1/users HTTP/1.1
+14:35:32.896 [main] DEBUG org.apache.http.headers - >> Accept: */*
+14:35:32.897 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json; charset=UTF-8
+14:35:32.897 [main] DEBUG org.apache.http.headers - >> Content-Length: 165
+14:35:32.897 [main] DEBUG org.apache.http.headers - >> Host: localhost:8081
+14:35:32.898 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+14:35:32.898 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_181)
+14:35:32.898 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+14:35:32.898 [main] DEBUG org.apache.http.wire -  >> "{ "username": "testuser", "password": "test@123", "firstName": "Test", "lastName": "User", "email": "usertest@gmail.com", "createdBy": "Admin", "updatedBy": "Admin"}"
+14:35:33.546 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 500 [\r][\n]"
+14:35:33.550 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+14:35:33.550 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+14:35:33.550 [main] DEBUG org.apache.http.wire -  << "Date: Tue, 13 Jul 2021 09:05:33 GMT[\r][\n]"
+14:35:33.550 [main] DEBUG org.apache.http.wire -  << "Connection: close[\r][\n]"
+14:35:33.550 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+14:35:33.551 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 500 
+14:35:33.551 [main] DEBUG org.apache.http.headers - << HTTP/1.1 500 
+14:35:33.551 [main] DEBUG org.apache.http.headers - << Content-Type: application/json;charset=UTF-8
+14:35:33.551 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+14:35:33.551 [main] DEBUG org.apache.http.headers - << Date: Tue, 13 Jul 2021 09:05:33 GMT
+14:35:33.551 [main] DEBUG org.apache.http.headers - << Connection: close
+14:35:33.600 [main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json;charset=UTF-8
+14:35:33.601 [main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+  When User sends their data username "testuser" firstname "Test" lastname "User" email "usertest@gmail.com" password "test@123" admin "Admin" # stepdefinitions.StepDefinitions.user_sends_their_data(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  Then User profile should be created                                                                                                          # stepdefinitions.StepDefinitions.user_profile_should_be_created()
+
+Scenario: Display all users    # src/test/java/resources/features/allFeatures.feature:7
+14:35:33.765 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://localhost:8081
+14:35:33.766 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to localhost:8081
+14:35:33.767 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+14:35:33.768 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+14:35:33.768 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+14:35:33.769 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+14:35:33.769 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+14:35:33.769 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /api/v1/users HTTP/1.1
+14:35:33.769 [main] DEBUG org.apache.http.wire -  >> "GET /api/v1/users HTTP/1.1[\r][\n]"
+14:35:33.769 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+14:35:33.769 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+14:35:33.770 [main] DEBUG org.apache.http.wire -  >> "Host: localhost:8081[\r][\n]"
+14:35:33.770 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+14:35:33.770 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_181)[\r][\n]"
+14:35:33.770 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+14:35:33.770 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+14:35:33.770 [main] DEBUG org.apache.http.headers - >> GET /api/v1/users HTTP/1.1
+14:35:33.770 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json; charset=UTF-8
+14:35:33.770 [main] DEBUG org.apache.http.headers - >> Accept: */*
+14:35:33.770 [main] DEBUG org.apache.http.headers - >> Host: localhost:8081
+14:35:33.771 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+14:35:33.771 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_181)
+14:35:33.771 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+14:35:34.057 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 [\r][\n]"
+14:35:34.057 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+14:35:34.057 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+14:35:34.057 [main] DEBUG org.apache.http.wire -  << "Date: Tue, 13 Jul 2021 09:05:33 GMT[\r][\n]"
+14:35:34.058 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+14:35:34.058 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 
+14:35:34.058 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 
+14:35:34.058 [main] DEBUG org.apache.http.headers - << Content-Type: application/json;charset=UTF-8
+14:35:34.058 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+14:35:34.058 [main] DEBUG org.apache.http.headers - << Date: Tue, 13 Jul 2021 09:05:33 GMT
+14:35:34.061 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+14:35:34.061 [main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json;charset=UTF-8
+14:35:34.061 [main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+  When User requests data      # stepdefinitions.StepDefinitions.user_requests_data()
+  Then All users are displayed # stepdefinitions.StepDefinitions.all_users_are_displayed()
+?????????????????????????????????????????????????????????????????????????????????????
+? Share your Cucumber Report with your team at https://reports.cucumber.io          ?
+? Activate publishing with one of the following:                                    ?
+?                                                                                   ?
+? src/test/resources/cucumber.properties:          cucumber.publish.enabled=true    ?
+? src/test/resources/junit-platform.properties:    cucumber.publish.enabled=true    ?
+? Environment variable:                            CUCUMBER_PUBLISH_ENABLED=true    ?
+? JUnit:                                           @CucumberOptions(publish = true) ?
+?                                                                                   ?
+? More information at https://reports.cucumber.io/docs/cucumber-jvm                 ?
+?                                                                                   ?
+? Disable this message with one of the following:                                   ?
+?                                                                                   ?
+? src/test/resources/cucumber.properties:          cucumber.publish.quiet=true      ?
+? src/test/resources/junit-platform.properties:    cucumber.publish.quiet=true      ?
+?????????????????????????????????????????????????????????????????????????????????????
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.612 s - in testrunner.TestRunner
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  22.655 s
+[INFO] Finished at: 2021-07-13T14:35:34+05:30
+[INFO] ------------------------------------------------------------------------
+Post stage
+[8mha:////4FY/81gaJpL/K+rf91Qy0870wr3KYp/lfPuKN7eKBU3ZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgYQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN8ZDe5C+AAAA[0m[Pipeline] cucumber
+[CucumberReport] Using Cucumber Reports version 5.5.0
+[CucumberReport] JSON report directory is ""
+[CucumberReport] Copied 1 json files from workspace "C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\branch-pipeline_jira-integration" to reports directory "C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\jobs\springboot-multibranch-pipeline\branches\jira-integration\builds\129\cucumber-html-reports_fb242bb7-17b2-346f-b0a4-d7a3b25b65b4\.cache"
+[CucumberReport] Copied 4 properties files from workspace "C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\branch-pipeline_jira-integration" to reports directory "C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\jobs\springboot-multibranch-pipeline\branches\jira-integration\builds\129\cucumber-html-reports_fb242bb7-17b2-346f-b0a4-d7a3b25b65b4\.cache"
+[CucumberReport] Processing 1 json files:
+[CucumberReport] C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\jobs\springboot-multibranch-pipeline\branches\jira-integration\builds\129\cucumber-html-reports_fb242bb7-17b2-346f-b0a4-d7a3b25b65b4\.cache\target\cucumber.json
+[CucumberReport] Adding 1 classification(s)
+[CucumberReport] Adding classification - Browser -> Firefox
+[8mha:////4MDKAPHtZBB73Bmk3C6j+sqtzqRipivTqHaBdhBF5S/AAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUhS6IqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpT7Jluz+zyrNxa9+DnCAAAA[0m[Pipeline] script
+[8mha:////4HuL7FqvjNTJJu5WMMArP3sqrQa8tBH3Yn9ICrH35e23AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUFhbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAQB2j23CAAAA[0m[Pipeline] {
+[8mha:////4Pu4vx/se1Kv1y6Rokj2QQY3Kwyx6KnbHBP5kkkk1HdoAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFNzkd4Tq+AAAA[0m[Pipeline] bat
+[8mha:////4AjNdE5PtYXMHIZo36W3kl6DO2k7oRx35UotXx6Xr+lWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAF4LPojvgAAAA==[0m[Pipeline] bat
+[8mha:////4NKcvECEuNEsUMp0ZeTujsUuP9/eB6nYlYGF7hofZSFBAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAG/urtsvgAAAA==[0m[Pipeline] bat
+[8mha:////4CVHlVYX7S9WtBMhWlj/DRsAPvN/qz9wvSOkoxXYQXctAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN/6LoHW+AAAA[0m[Pipeline] echo
+IssueId found: CICD-20
+[8mha:////4MieRsiXGLhrwKM2+cAxH6tNOfaNSgIAWS4l+oywhFm7AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIimjSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMknKOv9p2r/Bj3YjV6+AAAA[0m[Pipeline] bat
+
+C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\branch-pipeline_jira-integration>powershell Compress-Archive C:/Windows/System32/config/systemprofile/AppData/Local/Jenkins/.jenkins/jobs/springboot-multibranch-pipeline/branches/jira-integration/builds/129/cucumber-html-reports_fb242bb7-17b2-346f-b0a4-d7a3b25b65b4 C:/Windows/System32/config/systemprofile/AppData/Local/Jenkins/.jenkins/jobs/springboot-multibranch-pipeline/branches/jira-integration/builds/129/cucumber-html-reports_fb242bb7-17b2-346f-b0a4-d7a3b25b65b4.zip 
+[8mha:////4FBq+a1UX5HfytmE4pUn7owdbStJPZlefbf8PYVAbnAnAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGigQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO62n9qHN3zplke+AAAA[0m[Pipeline] bat
+
+C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\branch-pipeline_jira-integration>curl -s -i -X POST "https://mstale-test.atlassian.net/rest/api/latest/issue/CICD-20/attachments" --header "Authorization:Basic bXN0YWxlMjBAZ21haWwuY29tOkhKbFRSQ1B3YmRHMnhabVBIbnhPQUEyRA==" --header "X-Atlassian-Token:no-check" --form "file=@C:/Windows/System32/config/systemprofile/AppData/Local/Jenkins/.jenkins/jobs/springboot-multibranch-pipeline/branches/jira-integration/builds/129/cucumber-html-reports_fb242bb7-17b2-346f-b0a4-d7a3b25b65b4.zip" 
+HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+Server: AtlassianProxy/1.19.3.1
+vary: Accept-Encoding
+cache-control: no-cache, no-store, no-transform
+Content-Type: application/json;charset=UTF-8
+Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+Date: Tue, 13 Jul 2021 09:05:43 GMT
+ATL-TraceId: 116e271e113be68c
+x-arequestid: 47a923b4-de1f-4632-b98f-e0d0366d935e
+x-aaccountid: 5e707ba786a16d0c3e6a364a
+X-XSS-Protection: 1; mode=block
+Transfer-Encoding: chunked
+timing-allow-origin: *
+x-envoy-upstream-service-time: 2557
+X-Content-Type-Options: nosniff
+Connection: keep-alive
+set-cookie: atlassian.xsrf.token=0091613a-2f0c-4110-9e7d-e5a54c0043cc_0aae4816397b0f855c0c14feab42a4950ca5bd7c_lin; Path=/; Secure
+Expect-CT: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/global-proxy", enforce, max-age=86400
+
+[{"self":"https://mstale-test.atlassian.net/rest/api/2/attachment/10030","id":"10030","filename":"cucumber-html-reports_fb242bb7-17b2-346f-b0a4-d7a3b25b65b4.zip","author":{"self":"https://mstale-test.atlassian.net/rest/api/2/user?accountId=5e707ba786a16d0c3e6a364a","accountId":"5e707ba786a16d0c3e6a364a","emailAddress":"mstale20@gmail.com","avatarUrls":{"48x48":"https://secure.gravatar.com/avatar/778ccbe85c728139089c4bd47bba2008?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-2.png","24x24":"https://secure.gravatar.com/avatar/778ccbe85c728139089c4bd47bba2008?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-2.png","16x16":"https://secure.gravatar.com/avatar/778ccbe85c728139089c4bd47bba2008?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-2.png","32x32":"https://secure.gravatar.com/avatar/778ccbe85c728139089c4bd47bba2008?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-2.png"},"displayName":"Mihir Tale","active":true,"timeZone":"Asia/Calcutta","accountType":"atlassian"},"created":"2021-07-13T14:35:40.852+0530","size":833310,"mimeType":"application/zip","content":"https://mstale-test.atlassian.net/secure/attachment/10030/cucumber-html-reports_fb242bb7-17b2-346f-b0a4-d7a3b25b65b4.zip"}]
+[8mha:////4KaWpGbV/1cIIfplbbLyShQ5Upf2X5vO+rYrDhOPzef1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGoSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgELvVgHvgAAAA==[0m[Pipeline] }
+[8mha:////4OW8yKSjfIbefvox8faFzTQdp7QkiMwXDM7dj39WJUbbAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJChYQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbNzheA7u+AAAA[0m[Pipeline] // script
+[8mha:////4GV58lZIv6M4ktlVdEIUJDFStcQVLr+bd0DbZd8CyHN3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAxQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDNtdu/wGy8jX4vgAAAA==[0m[Pipeline] }
+[8mha:////4J/bIS6MKKl5EEo+SA1B/oCk2ts0qWbU+M7hzAevYdccAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRRUSBqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkF52Oeq6w+tcGCqvgAAAA==[0m[Pipeline] // stage
+[8mha:////4Kbu9qeLtjavZL/sGPSXW3lpCela0H6qLKNYejlmz/KpAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZWFATF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFsmmz73edZvQFVOXr4wgAAAA==[0m[Pipeline] stage
+[8mha:////4LcjKXAF7I3pVpNW2M8I612YQoL34lyNaQngjKK0ii56AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUgoEBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfAARKflFwgAAAA==[0m[Pipeline] { (Install)
+[8mha:////4Lhxis+sMt6NXeXcIGwJGAFXqM5uajYICQ4EfR754q3SAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAE/wUw2vgAAAA==[0m[Pipeline] echo
+Installing..!
+Post stage
+[8mha:////4LJswwiNgZbuz/n7exaTLs5HJ2M14fGXZ001bAw9osh+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAF+8FcvvgAAAA==[0m[Pipeline] echo
+JIRA: Install Successful
+[8mha:////4JxeY7pVlHRJifspXNmDyhCOmWrGa8x3ho9zfUnOwjdnAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgGihzBsvgAAAA==[0m[Pipeline] }
+[8mha:////4CKai9pSOXWwD27S7cmfyivrSnAVK+WYDzxY9dB4Hf53AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0aRAVLRWGl5gEmPsWHeO7eBUvIiv8QcCkajYYrWzzTxfsI4Bjhw0WkW9odga9G7U88LMob86zmj5gi1TZKewUbnhTp0WbDgpWFKUsBKwUdQ6joZ0gq2w8i4rJ0lX5xTm7yCgNN0ADyjEbE4ypC9MAXa3sYtMP89fAUzeJyjr+lP7N5Fka9C+AAAA[0m[Pipeline] // stage
+[8mha:////4BPIX6E2qpsq/b6iT85wUQo+Hr03J/vSIZRkiTmennvyAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUnUBCTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFsmmy7/edZvQEzGuFZwgAAAA==[0m[Pipeline] stage
+[8mha:////4Aw3pzM4qfGGiNRXYHJuvUNw1AZseLGJhd7SvRhkIhm+AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0BISYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+81LNBsIAAAA=[0m[Pipeline] { (Scoverage Report)
+[8mha:////4N/F437Vhr9Jq1WJl9PuS6hYNFVfnH6rpsGkM2KbwBpTAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBwilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPkgcDP2+AAAA[0m[Pipeline] echo
+Reports running..!
+Post stage
+[8mha:////4GeNu9kX6JFJQy8BVC4uWSCtQ5wevidt84mGubeFWVQxAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKkAoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AEJLRfkvgAAAA==[0m[Pipeline] echo
+JIRA: S Report Successful
+[8mha:////4OvcdF6i2qXwk2GDAawwiM8RJTcv59k5PO9fFfVhyVSxAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0QBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9DXDzhvgAAAA==[0m[Pipeline] }
+[8mha:////4H0degZ897yPEHTYJo0aRuhqheKDRUMKFEm6zkwVbgKoAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUBAJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkFZ73Md6g9wv2ddvgAAAA==[0m[Pipeline] // stage
+[8mha:////4FH/gnOzRVy2TM9yW1Z2Drh4yBNlAvzSOLLKPVKlg5IiAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUlRiQEFPXqAsnCE0ISaP/S5KSTpyIq3EHApWY8GDZlqz3fEEVPBzJa2YVDgZDb9joJp0TS+SHi6PELJ1ZTxjIKdap1JFU7VI7igoWFSWsOKwV9o6CQR1hw624i9oJ1PUp+rwdOJRG3uABBc/kKHz8ltnD9jrJQPjj/AXAPEYomybbfvd5Vm+hqmvYwgAAAA==[0m[Pipeline] stage
+[8mha:////4A6pV/UkajRNfytE9yY535awKBdG6+c7LaiiEyY40pvBAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AQkJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADX78n/wgAAAA==[0m[Pipeline] { (Run Sonar)
+[8mha:////4AKQmE64yh/lkxBXoGITACAqHjUGINu+MffpVNYTKeseAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgZAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFNxbD1rW+AAAA[0m[Pipeline] echo
+Reports running..!
+Post stage
+[8mha:////4DXp7tO56MT6TYHbRwY9B7H3JGa9KeWTGbOe7elw2E1VAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIZAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN1fyzay+AAAA[0m[Pipeline] echo
+JIRA: S Report Successful
+[8mha:////4ECwyNjJwDxVPnXkc+4gU+YI4YwYoWXKWPqM6Dhy5EulAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIUVCVLRWGl5gEmPsWHeO7eBUvIiv8QcCkajYYrWzzTxfsI4Bjhw0WkW9odga9G7U88LMob86zmj5gi1TZKewUbnhTp0WbDgpWFKUsBKwUdQ6joZ0gq2w8i4rJ0lX5xTm7yCgNN0ADyjEbE4ypC9MAXa3sYtMP89fAUzeJyjr+lP7N8Evic6+AAAA[0m[Pipeline] }
+[8mha:////4K4S0PKbxNW/txdoWdkjJU76YaRfOe3I16tZ0xS4tIsjAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSUIAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN/LM0nK+AAAA[0m[Pipeline] // stage
+[8mha:////4K+n+KduPZJrtZD+MNSCGJNblTQKj+ppSKFyKOsOCUcbAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUjggxdY2ycIKQhJA2+r8kKe3EibgadyBQiQkPlm3Jes8XVDHAkYJlncHeYVSODX60ObGJQn/xNLGOzkwRRvKGCTMJ0qZdqqBkYFFRworD2qDyFB3aBBveybusvURbn1LI24FD6fQNHlDwTE4ypG+ZA2yvo46EP85fAMxDgrJpsu13n2f1BgPjjeXCAAAA[0m[Pipeline] stage
+[8mha:////4Dya/EEHRQi1nREGr/3/qzgM5gz0n9gT4EWrA64TX3DcAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogURoSYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+mJlT6cIAAAA=[0m[Pipeline] { (Integration Test)
+[8mha:////4B9HECMvZxIWORo/mwRRYxDCvaCm13g4PyrrFjFz95EgAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi6BCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBqhInei+AAAA[0m[Pipeline] echo
+Integration Testing..!
+Post stage
+[8mha:////4JSDKo3ZjnadwscC6v5PR6iOZNGI+XE3FWe7LZwi2OI2AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRIUQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN+l5hvG+AAAA[0m[Pipeline] echo
+JIRA: Integration Tests Successful
+[8mha:////4G7oAjX5tPZzzJoIo1jrmoJ9eLWy+cHquoeI6R7vjzuOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgFWEUoBvgAAAA==[0m[Pipeline] }
+[8mha:////4Fkuen+ogaAqs3TuObnEAkQd1wkABuTVi7UcaI/OPp6QAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCQ4EQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN2XyEb2+AAAA[0m[Pipeline] // stage
+[8mha:////4MqmDEZc0pNU6E0noga/SGdRwLY/b0H5wiIYZo3KZ6aMAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUXZAQYuoadeEEoQkhafR/SVLSiRNxNe5AoBITHizbkvWeL6iChyN5zazCwWDoDRvdpHNiifxwcZSYpTPrCQM5xTqVOpKqXWpHUcGiooQVh7XC3lEwqCNsuBV3UTuBuj5Fn7cDh9LIGzyg4JkchY/fMnvYXicZCH+cvwCYxwhl02Tb7z7P6g0eANQzwgAAAA==[0m[Pipeline] stage
+[8mha:////4FctY3kasMG98sHyM/zZNES4sw+fCif5nWOMyHY4YaYfAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyHE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAcawv9fCAAAA[0m[Pipeline] { (Close artificat version)
+[8mha:////4Ljl1nIPiKMtkgpbBhEAxsFNNLs7rPuQUcFswtBxstItAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAkJUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfeGJWicb4AAAA=[0m[Pipeline] echo
+Close artificat version..!
+Post stage
+[8mha:////4MG/E4SLBvBJKoFp79xOH8ShoWVARcvyZDm5QNbD7oLDAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSoghR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3fWaS5aL4AAAA=[0m[Pipeline] echo
+JIRA: Close artificat version Successful
+[8mha:////4KggHC0DIdfIrlkPuOzcch/REOJMNVrLeleL1HWof0r+AAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGwchyHyjZD4wliiDGQ2cVkESpP5NW8gxmZsfJX/73mvd6wigFqClZ0BnuHUTsx+NGmJyYK/dXTJDq6CE0YyRvRmKmh1pwWbIgNLMtyKCSsDWpP0aFl2MhOPVTpFdryzCG5o4TctXd4QiZTmVXgL8wBtrexjYS/zt8AzMPAUOyqiiE/7D8wmRIKvwAAAA==[0m[Pipeline] }
+[8mha:////4IgMFvECIA3ZruGNw51BJOaqO4xgaWqd/d9DwjKCsjBuAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6LIYmIMk2vD4hdUWmuheQ/bhzD5Rf6a/2AjiZN3uucs5/WGVQxQU7CiM9g7jK0Tgx9temKi0F89TaKji2gJI3kjGjM1pM1pwYbYwLIsh0LC2mDrKTq0DBvZqYcqvUJbnjkkd5SQO32HJ2QylVkF/sIcYHsbdST8df4GYB4GhqLaVQz5Yf8BA3pJtr8AAAA=[0m[Pipeline] // stage
+[8mha:////4J9O3eRJeZ83GmfM2O1XH2qDJyNoH58invhjFE0NmIkwAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JUtBS8giH0CIqWisNLzCOMU6su2BfSCpexNf4A4ZIVGy1s9Jqni8oY4ADBSs6g73DqJ0Y/GhTExOF/uJpEh2dhSaM5I1ozNRQa44LNsQGlmQ5FBJWBrWn6NAyrGWn7qryCm114pC2vYTctTd4QCaTmVXgL8wBNtexjYQ/z18BzANDXtcMRb3dfa7lG6AfnBrDAAAA[0m[Pipeline] stage
+[8mha:////4HDUS90NujVABbz8FXJFkobQiJ0c6iqkOzZiozNHGLTyAAAAqB+LCAAAAAAAAP9tjT0OwjAUg19bdWBl5BApPyPqxBp14QQhCSFp9F5JUtqJE3E17kBpJSY8WLYl63u9oYwBagqGOY2txSgt63xvpsQGCu3V08AcXZgkjOQ1a/TQkNKnpTaUNCzKcig4rDRKT9GiSbDmTjxE5QWa6pzCtB055Fbd4QkZn8hJhDSXMcDm1qtI+OP8BcDYJSh22/3sh++3/ACxU3MfxAAAAA==[0m[Pipeline] { (Artifactory + Docker + Package)
+[8mha:////4F6WS6eiOopnAFRf9GTDpONRw2vGQ2REJDz0+9KZOYGrAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDgg6lorXS8AJjG2PHugu2g1PxIr7GH4gSiYotVjvbzPsDqxigoWCY09hZjNKy3g9mWixT6G6eMnN0ZZIwktes1bklpc8LtpQ0LClKqDisNUpP0aJJsOFOPEXtBZr6ksL0nTiUVj3gBQWfzEmENMMYYHsfVCT8ef4KYOwTVPvdYe5j/wVTEASOwAAAAA==[0m[Pipeline] echo
+ADP ing..!
+Post stage
+[8mha:////4FmHRmIF8EEaUvpzTR8ZGNMyGM2KehiviSdBpfOolpBLAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDQlQoFa2VhhcY2xg71l2wHZyKF/E1/kCUSFRssdrZZt4fWMUADQXDnMbOYpSW9X4w02KZQnfzlJmjK5OEkbxmrc4tKX1esKWkYUlRQsVhrVF6ihZNgg134ilqL9DUlxSm78ShtOoBLyj4ZE4ipBnGANv7oCLhz/NXAGOfoNrvDnMf+y8SIR+XwAAAAA==[0m[Pipeline] echo
+JIRA: ADP Successful
+[8mha:////4IvWj5UmhPAs2hJORzH0phODGGFmwTgqfwPOgFTub0+eAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDQqJBqWitNLzA2MbYse6C7eBUvIiv8QeiRKJii9XONvP+wCoGaCgY5jR2FqO0rPeDmRbLFLqbp8wcXZkkjOQ1a3VuSenzgi0lDUuKEioOa43SU7RoEmy4E09Re4GmvqQwfScOpVUPeEHBJ3MSIc0wBtjeBxUJf56/Ahj7PkG13x3nPnwBjjk/0cAAAAA=[0m[Pipeline] }
+[8mha:////4K3w0GrNpbBSJBoT4vtOvEbxwNSi8Q4yuInFF9E0U4wEAAAApR+LCAAAAAAAAP9tjTESwiAURH+SsbC19BBEbSycVLZMGk+AgAhh/o9AJJUn8mrewUwyY+UWO/u2ee8PrGKAhoJhTmNnMUrLej+YabFMobt5yszRlUnCSF6zVueWlD4v2FLSsKQooeKw1ig9RYsmwYY78RS1F2jqSwrTd+JQWvWAFxR8MicR0gxjgO19UJHw5/krgLHvE1T73XHuwxesAk8AwAAAAA==[0m[Pipeline] // stage
+[8mha:////4FHcFUHci95t8fL4HGo5t+QlVi95rnqoMuOBITTWLvgBAAAAqB+LCAAAAAAAAP9tjTEOwjAQBC+JUtBS8giHdEiIitZKwwuMY4wT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhjgQMGKzmDvMGonBj/a1MREob94mkRHZ6EJI3kjGjM11Jrjgg2xgSVZDoWElUHtKTq0DGvZqbuqvEJbnTikbS8hd+0NHpDJZGYV+AtzgM11bCPhz/NXAPPAkNc1Q1Fvd59r+QbGPAe7wwAAAA==[0m[Pipeline] stage
+[8mha:////4HSs6VdT4uBoH9foX1v0gTDg4ntfopInw5cjdWWrBEMxAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApbCDUiTXqwglCEkLS6P+SpLQTJ+Jq3IHSSkx4sGxL1nu9oYwBagqGOY2txSgt63xvpsQGCu3V08AcXZgkjOQ1a/TQkNKnpTaUNCzKcig4rDRKT9GiSbDmTjxE5QWa6pzCtB055Fbd4QkZn8hJhDSXMcDm1qtI+OP8BcDYJSh22/3sh++3/AC2mN9UxAAAAA==[0m[Pipeline] { (Deploy to INT)
+[8mha:////4KK66rwrPPD7RVilCJMrPJFFqrFN8YacHjB6Qrve4ImPAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGgdBwr2wyNJ4gkxkBmF5NFqDyRV/MORpmx8hd//vvNe75gFQMcKFjRGewdxtaJwY82LTFR6C+eJtHRWbSEkbwRjZka0ua4YENsYEmWQyFhbbD1FB1aho3s1F2VXqEtTxzSt5eQO32DB2QymVkF/sIcYHsddST8ef4KYB4Yirrafbquhjeoo2p6wAAAAA==[0m[Pipeline] echo
+Deploying..!
+Post stage
+[8mha:////4N3TyjGO5261KPC8McElcjiYtlJj65sKKmWj3AkR1NE6AAAApR+LCAAAAAAAAP9tjTESwiAURH+SsbC19BBESsexSsuk8QQIiCTM/xGISeWJvJp3EM2MlVvs7NvmPV+wigGOFCzrDPYOo3Js8KPNi00U+ouniXV0ZoowkjesNVNL2jQLtpQMLClKqASsDSpP0aFNsBGdvMvaS7T1KYX8HQSUTt/gAYXI5iRD+sIcYHsddST8ef4KYB4SVHy3/zTnwxvpknFjwAAAAA==[0m[Pipeline] echo
+JIRA: Deployment Successful
+[8mha:////4GzPqo896jxf6wgYGW7wyvP76YPxclQQ9tlNzHOS95IQAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRD6BCiorXS8AKTGGPHujP2haTiRXyNPxCIRMUWq51t5vmCRYpwoGiE09hZTI0VwfdmWmKg2F08DcLRWTSEibwWtR5qavVxxppYw5wsh0LCUmPjKVk0DCvp1F2VXqEpTxynby8ht+0NHpDJycwq8hfGCOtr3ybCn+evAMYQGIqq2n56s3sDHfQPCcAAAAA=[0m[Pipeline] }
+[8mha:////4E2yjTuo9slhQYIkF3X2nsJeBVduSTdWn/8RfxMwVqMDAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDRIOEqGitNLzAJMbYse6MfSGpeBFf4w8EIlGxxWpnm3m+YJEiHCga4TR2FlNjRfC9mZYYKHYXT4NwdBYNYSKvRa2Hmlp9nLEm1jAny6GQsNTYeEoWDcNKOnVXpVdoyhPH6dtLyG17gwdkcjKzivyFMcL62reJ8Of5K4AxBIaiqraf3uzeP89/2MAAAAA=[0m[Pipeline] // stage
+[8mha:////4LMKQivMOv8fXFA6uGgHxrbbScMyNdC1fZ5uokISAyFoAAAAqB+LCAAAAAAAAP9tjbEOgjAURR8QBldHP6KkiZtxcm1Y/IJaai0070H7ECa/yF/zH0RJnLzTPTe5Oc8XlCnCkaITrcXOYzJe9GF0SxMTxe4aaBItXYQhTBSsqO1UU2NPK9bEFtZkORQKNhZNoOTRMWxVq++6Chpddea4bAcFuW8GeECmFjPryF+YI+xuY5MIf56/Aph7hlxKhkLK/edavgEJ97JqwwAAAA==[0m[Pipeline] stage
+[8mha:////4LTEKl23xQBvRnycQ0ubc1c5KUERFd5ORMrVWgAOthG4AAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJiU7GibVh8QlqqbXQ/D+2xTL5RL6a72CFxMkbLneXXL7XG0rv4EROs17hYNBLw0Y76ZRYJDdcLUXW04VJQk9WsVbFljrVrLWloGBVlkPBYaNQWvIGdYAt78VDVFagrs7Bpe3IITfdHZ6Q8UQOwoWlzA52t6nzhD/OXwDMY4CirveLH77f8gN9x/ZdxAAAAA==[0m[Pipeline] { (Performance Test)
+[8mha:////4DEYw0f3ULJPeFQL1VSoKSvc+2vUTL2za7FCsSBxF5bcAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjFNAgqrRWGl5gYmPsWHfGdkgqXsTX+ANWIlGxxWpnm3l/YBMDnCloZhUOBmNvmHejzotNFIabo4lZurKeMJJTrFNTR1K1K3aUFKwpSqg4bBX2jqJBnWDHrXiK2gnU9SWF/J04lEY+4AUFz+YkQlpgDrC/jzIS/jx/BTD7BFXTHJY++i8iBeRswAAAAA==[0m[Pipeline] echo
+Performance Testing..!
+Post stage
+[8mha:////4BH+WlvCTTB4a3brSpbyhOgAwd7BNIoYTKusoH3QcyEfAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjFIgCUaW10vACExtjx7oztkNS8SK+xh+wEomKLVY728z7A5sY4ExBM6twMBh7w7wbdV5sojDcHE3M0pX1hJGcYp2aOpKqXbGjpGBNUULFYauwdxQN6gQ7bsVT1E6gri8p5O/EoTTyAS8oeDYnEdICc4D9fZSR8Of5K4DZJ6ia5rD00X8BYzT/dcAAAAA=[0m[Pipeline] echo
+JIRA: Performance Testing Successful
+[8mha:////4CuJmyvV35jXlaji38fwbyCjg9BzEjELbrHVWxK//VYIAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjFEhIiCqtlYYXmNgYO9adsR2SihfxNf6AlUhUbLHa2WbeH9jEAGcKmlmFg8HYG+bdqPNiE4Xh5mhilq6sJ4zkFOvU1JFU7YodJQVrihIqDluFvaNoUCfYcSueonYCdX1JIX8nDqWRD3hBwbM5iZAWmAPs76OMhD/PXwHM3ieomua49OELOdbSvcAAAAA=[0m[Pipeline] }
+[8mha:////4NZvaSMeMGzQRbdLQBA/76Uzfgyn143W2pUk2F75bUqeAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjSDQIUaW10vACExtjx7oztkNS8SK+xh+wEomKLVY728z7A5sY4ExBM6twMBh7w7wbdV5sojDcHE3M0pX1hJGcYp2aOpKqXbGjpGBNUULFYauwdxQN6gQ7bsVT1E6gri8p5O/EoTTyAS8oeDYnEdICc4D9fZSR8Of5K4DZ+wRV0xyXPnwBG+2ibMAAAAA=[0m[Pipeline] // stage
+[8mha:////4KUGutRBvLbVlI8HcH/aEFnFS7zXli5OsLpjOYJWdpAfAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JUtBS8giH0CIqWisNLzCOMU6su2BfSCpexNf4A4ZIVGy1s9Jqni8oY4ADBSs6g73DqJ0Y/GhTExOF/uJpEh2dhSaM5I1ozNRQa44LNsQGlmQ5FBJWBrWn6NAyrGWn7qryCm114pC2vYTctTd4QCaTmVXgL8wBNtexjYQ/z18BzANDXtcMRb3bfq7lG4Kvy8DDAAAA[0m[Pipeline] stage
+[8mha:////4GyZum/MuqDdsxm3/8gj9+886RBBPt6sh/GdcdHatkL0AAAApx+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQRV+PE2rD4BLXUWmj+H9timXwiX813sELi5A2Xu0su3+sNpXdwIqdZr3Aw6KVho510SiySG66WIuvpwiShJ6tYq2JLnWrW2lJQsCrLoeCwUSgteYM6wJb34iEqK1BX5+DSduSQm+4OT8h4IgfhwlJmB7vb1HnCH+cvAOYxQFEf9ovX32/5AUfIQ0nEAAAA[0m[Pipeline] { (Staging Test)
+[8mha:////4NOhPdCEfth3GneY9C16irQ5i21BsZXUF6ktODNuASKxAAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxEGWsfKNkPjCWKIMZDZDckiVJ7Iq3kHGZix8hd//vvNe39glyKcKVrRGewdJu1E8KNdlpgo9ndPk+joJjRhIm9EY6aGWnPZsCE2sCXLoZCwN6g9JYeW4SA79VSlV2jLK8flO0nIXTvACzK5mFlFXmGOcHyMbSL8ef4KYA4MRVVXa9fhC0BMCbfAAAAA[0m[Pipeline] echo
+Staging..!
+Post stage
+[8mha:////4Op9NQtb4dJ25D/8421V60AqHtlEY8aAA1xx8a6YqtFoAAAApB+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjQImo0lppeIGJjbFj3RnbIal4EV/jD1iJRMUWq51t5v2BTQxwpqCZVTgYjL1h3o06LzZRGG6OJmbpynrCSE6xTk0dSdWu2FFSsKYooeKwVdg7igZ1gh234ilqJ1DXlxTyd+JQGvmAFxQ8m5MIaYE5wP4+ykj48/wVwOwTVM2hWfrovwF9Eq7AAAAA[0m[Pipeline] echo
+JIRA: Staging Test Successful
+[8mha:////4Fq6aG3snTJHJdOouRafenl8aIWB5B2jGCkesCbbUc/HAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjIDpEldZKwwtMbIwd687YDknFi/gaf8BKJCq2WO1sM+8PbGKAMwXNrMLBYOwN827UebGJwnBzNDFLV9YTRnKKdWrqSKp2xY6SgjVFCRWHrcLeUTSoE+y4FU9RO4G6vqSQvxOH0sgHvKDg2ZxESAvMAfb3UUbCn+evAGbvE1TN4bh08wV0LL3YwAAAAA==[0m[Pipeline] }
+[8mha:////4O9BpmnQpoa2FCuvg8+pA3FQIBMyUPpuQkcj8aeXdkVqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDSFQoFa2VhhcY2xg71l2wHZyKF/E1/kCUSFRssdrZZt4fWMUADQXDnMbOYpSW9X4w02KZQnfzlJmjK5OEkbxmrc4tKX1esKWkYUlRQsVhrVF6ihZNgg134ilqL9DUlxSm78ShtOoBLyj4ZE4ipBnGANv7oCLhz/NXAGPfJ6j2h+Pcuy9WF80JwAAAAA==[0m[Pipeline] // stage
+[8mha:////4FXQbWD1qom9X9wzgYvyVXhe3su8wXPs1yuDmYxjgf7/AAAAqB+LCAAAAAAAAP9tjTEOwjAQBC+JUtBS8ghHpqBBVLRWGl5gHGOcWHfBvpBUvIiv8QcCkajYamel1TxfUKYIB4pOtBY7j8l40YfBzU2MFLtLoFG0dBaGMFGworZjTY09LlgTW1iS5VAoWFk0gZJHx7BWrb7rKmh01YnjvO0V5L65wQMyNZtZR/7CFGFzHZpE+PP8FcDUM+RSMhRyu/tcyzefTJIWwwAAAA==[0m[Pipeline] stage
+[8mha:////4CW28gdL+6l4eMYJ8kdShRoHTauLdFs7WDQGgCFAm5njAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpYIABdWKNunCCkISQNPq/JCntxIm4GnegtBITHizbkvVebyhjgJqCYU5jazFKyzrfmymxgUJ79TQwRxcmCSN5zRo9NKT0aakNJQ2LshwKDiuN0lO0aBKsuRMPUXmBpjqnMG1HDrlVd3hCxidyEiHNZQywufUqEv44fwEwdgmK7W4/++H7LT+6jidwxAAAAA==[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4I0pmphaqkeb12lIUR583h8TXRGmCxUorN1FbOkfxSxQAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpYAEJdWKNunCCkISQNPq/JCntxIm4GnegtBITHizbkvVebyhjgJqCYU5jazFKyzrfmymxgUJ79TQwRxcmCSN5zRo9NKT0aakNJQ2LshwKDiuN0lO0aBKsuRMPUXmBpjqnMG1HDrlVd3hCxidyEiHNZQywufUqEv44fwEwdgmK7W4/++H7LT8AcNQaxAAAAA==[0m[Pipeline] script
+[8mha:////4PBieRjTo3+pMxxrYLd3Zwo1Tqc9tFwSiWWQdciQiCNLAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpYAKhTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx3e1nP3y/5QfUPByjxAAAAA==[0m[Pipeline] {
+[8mha:////4MEMWG7sUC1mvGxoQi1sV/z7/FWbCYLiHcaSgx6nfPaPAAAAph+LCAAAAAAAAP9tjTsOwjAQRDeJKGgpOYTDp0KIitZywwmMbYwTazfYDknFibgad8AQiYopRvOmec8XzGKAAwXLGoOtw6gc63xv82IDhfbiaWANnZkijOQNE2YQpM1xQkHJwJSihIrD3KDyFB3aBAveyLusvURbn1LI355D6fQNHlDwbE4ypC+MAZbXXkfCn+evAMYuQbXe7D69XXVvQF8YV8AAAAA=[0m[Pipeline] bat
+[8mha:////4MMsExqMqN2XRXTPWfGEWQyP46kAqWQYK+PK0B62SoyjAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjQIUQFa3lhhcY2xgn1l2wHZyKF/E1/kAgEhVbrHa2mecLFjHAgYJlrcHOYVSO9X6w02KZQnfxlFlLZ6YII3nDhMmCtDnOKCgZmFOUUHFYGlSeokObYMVbeZe1l2jrUwrTt+dQOn2DBxR8MicZ0hfGAOvroCPhz/NXAGOfoGo2u09vm/4NAW4DTsAAAAA=[0m[Pipeline] bat
+[8mha:////4J1SksKxBnuZc8FzG8BbSocoz2Eg5MexKZp3P7O/sgnxAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjQoUQFa2VhheYxBg71p2xLyQVL+Jr/IFAJCq2WO1sM88XLFKEA0UjnMbOYmqsCL430xIDxe7iaRCOzqIhTOS1qPVQU6uPM9bEGuZkORQSlhobT8miYVhJp+6q9ApNeeI4fXsJuW1v8IBMTmZWkb8wRlhf+zYR/jx/BTAGhmJT7T69rcIbwj0uZcAAAAA=[0m[Pipeline] bat
+[8mha:////4HnkgwJyuTZ+kNCZPN55Sq1IlMl6zPqUBSyLYDD9TlJ9AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjSIUQFa2VhheYxBg71p2xLyQVL+Jr/IFAJCq2WO1sM88XLFKEA0UjnMbOYmqsCL430xIDxe7iaRCOzqIhTOS1qPVQU6uPM9bEGuZkORQSlhobT8miYVhJp+6q9ApNeeI4fXsJuW1v8IBMTmZWkb8wRlhf+zYR/jx/BTAGhmKz3X26qsIbgww1fMAAAAA=[0m[Pipeline] echo
+IssueId found: CICD-20
+[8mha:////4OtJ8RYB5p0GzKltA9KBpRaADwcGqZ0UUygu3ordUZptAAAApx+LCAAAAAAAAP9tjTsOwjAQRDeJKGgpOYQjPg1CVLSWG05gbGOcWLvBdkgqTsTVuAOGSFRMMZo3zXu+YBYDHChY1hhsHUblWOd7mxcbKLQXTwNr6MwUYSRvmDCDIG2OEwpKBqYUJVQc5gaVp+jQJljwRt5l7SXa+pRC/vYcSqdv8ICCZ3OSIX1hDLC89joS/jx/BTB2CarVevfpzbZ7A0SadDPAAAAA[0m[Pipeline] bat
+
+C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\branch-pipeline_jira-integration>curl -g --request PUT "https://mstale-test.atlassian.net/rest/api/latest/issue/CICD-20" --header "Authorization: Basic bXN0YWxlMjBAZ21haWwuY29tOkhKbFRSQ1B3YmRHMnhabVBIbnhPQUEyRA==" --header "Content-Type:application/json" --data-raw "{\"fields\": {\"customfield_10034\":[\"Deployed\"],\"customfield_10035\":\"Success\",\"customfield_10036\":\"www.my_new_bdd.com\"}}" 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   117    0     0  100   117      0    117  0:00:01 --:--:--  0:00:01   277
+[8mha:////4OMOyuGFpAcxNyUQrG+etqSrGuIA3d82CB/LaUSKuu7dAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjQBQIUdFabniBsY1xYt0F2yGpeBFf4w8YIlGxxWpnm3m+YBYDHChY1hhsHUblWOd7mxcbKLQXTwNr6MwUYSRvmDCDIG2OEwpKBqYUJVQc5gaVp+jQJljwRt5l7SXa+pRC/vYcSqdv8ICCZ3OSIX1hDLC89joS/jx/BTB2CarVevfpzbZ7AwWrbyrAAAAA[0m[Pipeline] bat
+[8mha:////4PPvUy633qeXHXXXnohwT//uuKvtloy5iSc6vnh4/5hSAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjQEJCiIrWcsMLjG2ME+su2A5JxYv4Gn/AEImKLVY728zzBbMY4EDBssZg6zAqxzrf27zYQKG9eBpYQ2emCCN5w4QZBGlznFBQMjClKKHiMDeoPEWHNsGCN/Iuay/R1qcU8rfnUDp9gwcUPJuTDOkLY4DltdeR8Of5K4CxS1Ct1rtPb7bdG8b4QgHAAAAA[0m[Pipeline] bat
+[8mha:////4Bzn5OhNo8cGSa1IUZMBrSkGsxD+gGEnrl/wxI1Yb7gYAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjoEAIUdFabniBsY1xYt0F2yGpeBFf4w8YIlGxxWpnm3m+YBYDHChY1hhsHUblWOd7mxcbKLQXTwNr6MwUYSRvmDCDIG2OEwpKBqYUJVQc5gaVp+jQJljwRt5l7SXa+pRC/vYcSqdv8ICCZ3OSIX1hDLC89joS/jx/BTB2CarVevfpzbZ7A4fJWRjAAAAA[0m[Pipeline] bat
+[8mha:////4P1Hop3YtLpV5ZbV0U/Hfxic8cNS6bOGSo+MlmJAGihyAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjoAEhKlrLDS8wtjFOrLtgOyQVL+Jr/AFDJCq2WO1sM88XzGKAAwXLGoOtw6gc63xv82IDhfbiaWANnZkijOQNE2YQpM1xQkHJwJSihIrD3KDyFB3aBAveyLusvURbn1LI355D6fQNHlDwbE4ypC+MAZbXXkfCn+evAMYuQbVa7z692XZvSNXBn8AAAAA=[0m[Pipeline] echo
+IssueId found: CICD-20
+[8mha:////4Fq4tUl3DH9m14AByVezM3Q8x6OkftPZk2sS+e+n8rjLAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjoIoQFa2VhheYxBg71p2xLyQVL+Jr/IFAJCq2WO1sM88XLFKEA0UjnMbOYmqsCL430xIDxe7iaRCOzqIhTOS1qPVQU6uPM9bEGuZkORQSlhobT8miYVhJp+6q9ApNeeI4fXsJuW1v8IBMTmZWkb8wRlhf+zYR/jx/BTAGhmKzrT69q8IbCeTahsAAAAA=[0m[Pipeline] bat
+
+C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\branch-pipeline_jira-integration>curl -g --request POST "https://mstale-test.atlassian.net/rest/api/latest/issue/CICD-20/comment" --header "Authorization: Basic bXN0YWxlMjBAZ21haWwuY29tOkhKbFRSQ1B3YmRHMnhabVBIbnhPQUEyRA==" --header "Content-Type:application/json" --data-raw "{\"body\": \"Build Failed\"}" 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  2247    0  2223  100    24   2223     24  0:00:01 --:--:--  0:00:01  3782
+{"self":"https://mstale-test.atlassian.net/rest/api/2/issue/10019/comment/10100","id":"10100","author":{"self":"https://mstale-test.atlassian.net/rest/api/2/user?accountId=5e707ba786a16d0c3e6a364a","accountId":"5e707ba786a16d0c3e6a364a","emailAddress":"mstale20@gmail.com","avatarUrls":{"48x48":"https://secure.gravatar.com/avatar/778ccbe85c728139089c4bd47bba2008?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-2.png","24x24":"https://secure.gravatar.com/avatar/778ccbe85c728139089c4bd47bba2008?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-2.png","16x16":"https://secure.gravatar.com/avatar/778ccbe85c728139089c4bd47bba2008?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-2.png","32x32":"https://secure.gravatar.com/avatar/778ccbe85c728139089c4bd47bba2008?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-2.png"},"displayName":"Mihir Tale","active":true,"timeZone":"Asia/Calcutta","accountType":"atlassian"},"body":"Build Failed","updateAuthor":{"self":"https://mstale-test.atlassian.net/rest/api/2/user?accountId=5e707ba786a16d0c3e6a364a","accountId":"5e707ba786a16d0c3e6a364a","emailAddress":"mstale20@gmail.com","avatarUrls":{"48x48":"https://secure.gravatar.com/avatar/778ccbe85c728139089c4bd47bba2008?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-2.png","24x24":"https://secure.gravatar.com/avatar/778ccbe85c728139089c4bd47bba2008?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-2.png","16x16":"https://secure.gravatar.com/avatar/778ccbe85c728139089c4bd47bba2008?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-2.png","32x32":"https://secure.gravatar.com/avatar/778ccbe85c728139089c4bd47bba2008?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-2.png"},"displayName":"Mihir Tale","active":true,"timeZone":"Asia/Calcutta","accountType":"atlassian"},"created":"2021-07-13T14:35:49.684+0530","updated":"2021-07-13T14:35:49.684+0530","jsdPublic":true}
+[8mha:////4A+i20JIAO/S5b17DrSAtCLjJAlKBLgVkqSInL/xxptrAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDiAYhKlrLDS8wtjFOrLtgOyQVL+Jr/AFDJCq2WO1sM88XzGKAAwXLGoOtw6gc63xv82IDhfbiaWANnZkijOQNE2YQpM1xQkHJwJSihIrD3KDyFB3aBAveyLusvURbn1LI355D6fQNHlDwbE4ypC+MAZbXXkfCn+evAMYuQbXe7D69XXVvxUlXUsAAAAA=[0m[Pipeline] bat
+[8mha:////4KClvnv9aFdcOqTx4Pn70FXJc8nl0Y74I0TddP3GHPEfAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjIBqEqGgtN7zA2MY4se6C7eBUvIiv8QcCkajYYrWzzTxfsIgBDhQsaw12DqNyrPeDnRbLFLqLp8xaOjNFGMkbJkwWpM1xRkHJwJyihIrD0qDyFB3aBCveyrusvURbn1KYvj2H0ukbPKDgkznJkL4wBlhfBx0Jf56/Ahj7BFWz2X162/RvhHhMS8AAAAA=[0m[Pipeline] bat
+[8mha:////4CSj9XPEm310OL7bYpIkb7g4//rQ2ACPWBkOEBMPT+gcAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjIhqEqGitNLzAJMbYse6MfSGpeBFf4w8EIlGxxWpnm3m+YJEiHCga4TR2FlNjRfC9mZYYKHYXT4NwdBYNYSKvRa2Hmlp9nLEm1jAny6GQsNTYeEoWDcNKOnVXpVdoyhPH6dtLyG17gwdkcjKzivyFMcL62reJ8Of5K4AxMBSbavfpbRXeRythYMAAAAA=[0m[Pipeline] bat
+[8mha:////4DvwXyX+6I8Pw3z8OmJ9s3MoE0LABsPDPRg8lI0mgbnlAAAApx+LCAAAAAAAAP9tjTsOwjAQRDeJKGgpOYQjPg1CVLSWG05gbGOcWLvBdkgqTsTVuAOGSFRMMZo3zXu+YBYDHChY1hhsHUblWOd7mxcbKLQXTwNr6MwUYSRvmDCDIG2OEwpKBqYUJVQc5gaVp+jQJljwRt5l7SXa+pRC/vYcSqdv8ICCZ3OSIX1hDLC89joS/jx/BTB2CarVevfp7aZ7AwYaennAAAAA[0m[Pipeline] echo
+IssueId found: CICD-20
+[8mha:////4IoyEyDF/aHM9SSWQ4BZVKoyPDPHbZW0Ti6PL8i9cRqFAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjUBqEqGitNLzAJMbYse6MfSGpeBFf4w8EIlGxxWpnm3m+YJEiHCga4TR2FlNjRfC9mZYYKHYXT4NwdBYNYSKvRa2Hmlp9nLEm1jAny6GQsNTYeEoWDcNKOnVXpVdoyhPH6dtLyG17gwdkcjKzivyFMcL62reJ8Of5K4AxMBSb7e7TVRXewYw7NsAAAAA=[0m[Pipeline] bat
+
+C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\branch-pipeline_jira-integration>curl -g --request PUT "https://mstale-test.atlassian.net/rest/api/latest/issue/CICD-20/assignee" --header "Authorization: Basic bXN0YWxlMjBAZ21haWwuY29tOkhKbFRSQ1B3YmRHMnhabVBIbnhPQUEyRA==" --header "Content-Type:application/json" --data-raw "{\"accountId\": \"60dbed7c285656006a7a6927\"} 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    41    0     0  100    41      0     41  0:00:01 --:--:--  0:00:01   100100    41    0     0  100    41      0     41  0:00:01 --:--:--  0:00:01   100
+[8mha:////4KrmxSoNJHeQVAi1DCgPTRejs0XzmypKIExeTcL0+2XkAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjEBQIUdFabniBsY1xYt0F2yGpeBFf4w8YIlGxxWpnm3m+YBYDHChY1hhsHUblWOd7mxcbKLQXTwNr6MwUYSRvmDCDIG2OEwpKBqYUJVQc5gaVp+jQJljwRt5l7SXa+pRC/vYcSqdv8ICCZ3OSIX1hDLC89joS/jx/BTB2XYJqtdl+er17A3WmfrbAAAAA[0m[Pipeline] }
+[8mha:////4K6+WtUTkqY0Ndi6FATE+TD2YIU/Cx+n1EWzSG2ns9qDAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjEEJIiIrWcsMLjG2ME+su2A5JxYv4Gn/AEImKLVY728zzBbMY4EDBssZg6zAqxzrf27zYQKG9eBpYQ2emCCN5w4QZBGlznFBQMjClKKHiMDeoPEWHNsGCN/Iuay/R1qcU8rfnUDp9gwcUPJuTDOkLY4DltdeR8Of5K4Cx6xJUq8320+vdG36MkfDAAAAA[0m[Pipeline] // script
+[8mha:////4I5+QzTOOdQLc87j2aA0pd/AAWeSw89hIxySrJTD9Xl1AAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjEFIKREVrpeEFJjHGjnVn7AtJxYv4Gn8gEImKLVY728zzBYsU4UDRCKexs5gaK4LvzbTEQLG7eBqEo7NoCBN5LWo91NTq44w1sYY5WQ6FhKXGxlOyaBhW0qm7Kr1CU544Tt9eQm7bGzwgk5OZVeQvjBHW175NhD/PXwGMgaHYbKtP76rwBjDNnAjAAAAA[0m[Pipeline] echo
+JIRA: Added BDD test reports
+[8mha:////4Js0t9K2GU7FaqMpmWs3Ka9w20+XvWU5F2vAjijP6wWHAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjEBJIiIrWcsMLjG2ME+su2A5JxYv4Gn/AEImKLVY728zzBbMY4EDBssZg6zAqxzrf27zYQKG9eBpYQ2emCCN5w4QZBGlznFBQMjClKKHiMDeoPEWHNsGCN/Iuay/R1qcU8rfnUDp9gwcUPJuTDOkLY4DltdeR8Of5K4Cx6xJUq83u0+vtG7LqETDAAAAA[0m[Pipeline] }
+[8mha:////4PPqc+UQ+S1wdqPtfzO5BlqzeEajedovJYgK4SnXQNg4AAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjEEJCiIrWcsMLjG2ME+su2A5JxYv4Gn/AEImKLVY728zzBbMY4EDBssZg6zAqxzrf27zYQKG9eBpYQ2emCCN5w4QZBGlznFBQMjClKKHiMDeoPEWHNsGCN/Iuay/R1qcU8rfnUDp9gwcUPJuTDOkLY4DltdeR8Of5K4Cx6xJUq83u0+vtG5DRYeHAAAAA[0m[Pipeline] // stage
+[8mha:////4C+jLRZM2iptV4MJrFJeZ7zowVkex0hbjuQT/wWzZUnBAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGksHKsbDM0niCSGAOZ3ZgshsoTeTXvICMzVv7qv9e81xtWKcKRohW9wcFh6pwIfrTzE5nicPWURU8X0REm8ka0JrekzWnBltjAsqKESsLaYOcpObQMG9mrh6q9QlufOc7uIKF0+g5PKORcZhX5C1OE7W3UifDX+RuAKQSGqtnvGMqm+QCqmZB5vwAAAA==[0m[Pipeline] }
+[8mha:////4PdMyaZNpd4YkN98yBD5dlfPVtY/FPuTOpjkYXGhRkImAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGksHKsbDM0niCSGAOZ3ZgshsoTeTXvICMzVv7qv9e81xtWKcKRohW9wcFh6pwIfrTzE5nicPWURU8X0REm8ka0JrekzWnBltjAsqKESsLaYOcpObQMG9mrh6q9QlufOc7uIKF0+g5PKORcZhX5C1OE7W3UifDX+RuAKQSGqtk3DGWz+wCZesvFvwAAAA==[0m[Pipeline] // withEnv
+[8mha:////4Kn/XHp+SX2B6+qYrKHU3WEBmqcUBvS4hhS4OVjZv02eAAAApB+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjEFSIitZKwwuMY4wT6y7YF5yKF/E1/kBEJCq22plmXm9YpAhHik62FjuPyXjZh8FNT2aK3TVQli1dpCFMFKysba6psacZa2IL80QBpYKlRRMoeXQMK9Xqh66CRledOU7uoKDwzR2eINRUZh35C2OE9W1oEuGv8zcAY98zlJv9lkHsPjKKzGK+AAAA[0m[Pipeline] }
+[8mha:////4M/xQ7ZZTaSK5gWxOKSIkRWwpK3feEk9dp6Suu/xGvxaAAAApB+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjFFEhKlorDS8wsTFOrDtjX3AqXsTX+AMRkajYameaeb1hlSIcKVrRGxwcps6J4Ec7P5EpDldPWfR0ER1hIm9Ea3JL2pwWbIkNLCtKqCSsDXaekkPLsJG9eqjaK7T1mePsDhJKp+/whELOZVaRvzBF2N5GnQh/nb8BmEJgqHb7hqFoPiE2yMG+AAAA[0m[Pipeline] // node
+[8mha:////4FbDkyB7Z99KFqiZggy/Z2JMQ3omhtozKBuX2d95QViLAAAApB+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjEFSIitZKwwuMY4wT6y7YF5yKF/E1/kBEJCq22plmXm9YpAhHik62FjuPyXjZh8FNT2aK3TVQli1dpCFMFKysba6psacZa2IL80QBpYKlRRMoeXQMK9Xqh66CRledOU7uoKDwzR2eINRUZh35C2OE9W1oEuGv8zcAY98zlJv9jkFsP6fa7wS+AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

@@ -1,0 +1,61 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.8">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.92">
+    <parentIds>
+      <string>58</string>
+    </parentIds>
+    <id>59</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.CoreStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.92">
+      <arguments>
+        <entry>
+          <string>delegate</string>
+          <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable plugin="structs@1.23">
+            <symbol>cucumber</symbol>
+            <arguments class="tree-map">
+              <entry>
+                <string>buildStatus</string>
+                <string>UNSTABLE</string>
+              </entry>
+              <entry>
+                <string>classifications</string>
+                <list>
+                  <linked-hash-map>
+                    <entry>
+                      <string>key</string>
+                      <string>Browser</string>
+                    </entry>
+                    <entry>
+                      <string>value</string>
+                      <string>Firefox</string>
+                    </entry>
+                  </linked-hash-map>
+                </list>
+              </entry>
+              <entry>
+                <string>fileIncludePattern</string>
+                <string>**/*.json</string>
+              </entry>
+              <entry>
+                <string>reportTitle</string>
+                <string>My report</string>
+              </entry>
+              <entry>
+                <string>trendsLimit</string>
+                <int>10</int>
+              </entry>
+            </arguments>
+          </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.46">
+      <startTime>1626167135011</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

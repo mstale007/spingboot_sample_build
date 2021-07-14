@@ -1,0 +1,10 @@
+commit bf4690149fb51347fbe1a55167627966cdd7f526
+tree 35c238bd45f6fa16a0908bf9712d9d809bb27977
+parent e79eb7b12dd7f2205a849b931ae405c04977f7e5
+author muskaanshraogi <muskaanshraogi123@gmail.com> 2021-07-13 14:33:51 +0530
+committer muskaanshraogi <muskaanshraogi123@gmail.com> 2021-07-13 14:33:51 +0530
+
+    vertical table
+
+
+:100644 100644 d470cf284c6a36db3d91a4ab1883d5fcbef5b7b7 60bc3fd49ed1bd4f0fc8555934c01af2e472e95b M	src/com/cicd/helper/JiraUtil.groovy
